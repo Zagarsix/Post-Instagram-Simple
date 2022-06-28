@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.post {
+    background-color: white;
+    width: 450px;
+    height: 630px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.post .post-header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.post .post-header .left {
+    display: flex;
+}
+
+.post .post-header .left .logo {
+    margin-right: 10px;
+}
+
+.post .post-header .ellipsis {
+    margin-left: 50px;
+    align-items: flex-end;
+}
+
+
+.post .post-img {
+    max-width: 450px;
+    max-height: 350px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.post .post-body {
+    padding: 10px;
+}
+
+.post .post-body .iconos {
+    justify-content: space-between;
+    width: auto;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.post .post-body .iconos .bookmark {
+    align-items: flex-end;
+}
